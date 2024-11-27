@@ -1,0 +1,92 @@
+Step 1: Git Install Karna (Already Installed)
+Aapne Git download kar liya hai aur install kar diya hai. Aap ye check kar sakte hain ki Git sahi se install hua hai ya nahi:
+
+bash
+Copy code
+git --version
+Agar version number show ho raha hai (e.g., git version 2.x.x), to Git install ho chuka hai.
+
+Step 2: Git Configuration (First-Time Setup)
+Git ko apne system me configure karein:
+
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+
+Your Name: Aapka naam jo GitHub par dikhna chahiye.
+Your Email: Wahi email jo aapne GitHub account ke liye use kiya hai.
+
+Step 3: Project Folder Open Karein
+Terminal (Command Prompt/PowerShell/Terminal) me apne project folder ko open karein:
+
+cd /path/to/your/project
+Replace /path/to/your/project apne project ke actual path se.
+
+Step 4: Git Repository Initialize Karein
+Apne project folder me Git repository initialize karein:
+
+git init
+Yeh command project folder me .git folder create karega jo Git ke liye zaroori hai.
+
+Step 5: Files Add Karein
+Apne project ki sabhi files ko staging area me add karein:
+
+git add .
+Note: . ka matlab hai saari files add karna. Agar ek specific file add karni ho, to:
+
+git add filename.extension
+
+Step 6: First Commit Karein
+Apne changes ko commit karein:
+
+git commit -m "Initial commit"
+Yeh aapke changes ko ek snapshot me save karega.
+
+Step 7: GitHub Repository Create Karein
+GitHub par login karein.
+New Repository button par click karein.
+Repository ka naam (e.g., my-project) enter karein.
+"Create Repository" par click karein.
+GitHub aapko ek repository URL dega, jo kuch is tarah dikhega:
+
+
+https://github.com/your-username/my-project.git
+Step 8: Local Repository ko GitHub Repository se Link Karein
+GitHub repository ka URL copy karein aur apni local repository ke saath link karein:
+
+git remote add origin https://github.com/your-username/my-project.git
+Step 9: Branch Set Karein
+Default branch ko main set karein:
+
+
+git branch -M main
+Step 10: Files Push Karein
+Ab apne code ko GitHub par push karein:
+
+
+git push -u origin main
+Aapko apna GitHub username aur password/token dalne ke liye bola jayega:
+
+Username: Aapka GitHub username.
+Password: Agar GitHub password ki jagah token maang raha hai, to:
+GitHub par jaake Settings > Developer Settings > Personal Access Token par naya token generate karein aur usse password ke jagah paste karein.
+Aapka Code GitHub Par Successfully Push Ho Gaya Hai!
+Ab apne GitHub repository me jaake check karein, aapka code wahan visible hoga. 😊
+
+Common Commands for Future Use
+New Changes Add Karna aur Push Karna:
+
+bash
+Copy code
+git add .
+git commit -m "Update message"
+git push
+Remote Changes Pull Karna:
+
+
+git pull origin main
+
+
+
+
+
+
