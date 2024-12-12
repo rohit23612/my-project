@@ -1,0 +1,75 @@
+{% if collection.metafields.custom.related_collections %}
+  <div class="sub-collections">
+    <h2>Select your Occasion</h2>
+    <ul class="related-collections-slider {% if section.settings.enable_mobile_slider %}mobile-slider{% endif %}">
+      {% for sub_collection in collection.metafields.custom.related_collections.value %}
+        <li>
+          <a href="{{ sub_collection.url }}">
+            <img src="{{ sub_collection.featured_image | img_url: 'medium' }}" alt="{{ sub_collection.title }}">
+          </a>
+          <p>{{ sub_collection.title }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Gift Product Section",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection_gift",
+      "label": "Gift collections"
+    },
+    {
+      "type": "text",
+      "label": "Banner Title",
+      "id": "banner_title",
+      "default": "Welcome to Our Store"
+    },
+    {
+      "type": "textarea",
+      "label": "Banner Description",
+      "id": "banner_description",
+      "default": "This is a description of the banner. You can change it in the settings."
+    },
+    {
+      "type": "color",
+      "label": "Text Color",
+      "id": "text_color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "label": "Enable Mobile Slider",
+      "id": "enable_mobile_slider",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Gift Product Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+<script>
+  $(document).ready(function() {
+    if (window.matchMedia('(max-width: 767px)').matches && $('.related-collections-slider').hasClass('mobile-slider')) {
+      $(".related-collections-slider").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        adaptiveHeight: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    }
+  });
+</script>
