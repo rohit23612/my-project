@@ -1,0 +1,11 @@
+div.fluxtore_yes_button,
+div.fluxtore_no_button{
+    background: unset !important;
+    box-shadow: unset !important;
+}
+
+
+.et-db #et-boc .et-l .et-fb-modules-list .fldt_checkout:before{
+    font-family: "ETmodules";
+    content:"\e07a";
+}

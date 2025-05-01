@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfluxtore=self.webpackChunkfluxtore||[]).push([[987],{6987:(e,u,c)=>{c.r(u),c.d(u,{default:()=>s});const s=c.p+"627ace906760b7856e50dd8165cd03e6.png"}}]);

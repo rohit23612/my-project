@@ -1,0 +1,7 @@
+.idea/
+composer.lock
+index.php
+vendor
+build
+.htaccess
+test.php

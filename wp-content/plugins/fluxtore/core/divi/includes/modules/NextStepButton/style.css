@@ -1,0 +1,12 @@
+ div.fldt_next_step_button_0{
+   width: fit-content !important;
+}
+.et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    background: transparent !important;
+} 
+
+
+.et-db #et-boc .et-l .et-fb-modules-list .fldt_next_step_button:before{
+    font-family: "ETmodules";
+    content:"\24";
+}

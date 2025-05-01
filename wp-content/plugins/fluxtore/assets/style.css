@@ -1,0 +1,34 @@
+.choose_editor .edit-link{white-space: nowrap;}
+.choose_editor {display: grid;grid-template-columns: repeat(2,1fr);gap: 10px;padding: 20px 0;}
+.choose_editor a{text-align: center;}
+
+@media screen and (max-width: 639px){
+.choose_editor {display: grid !important;width: 100%;padding-bottom: 0 !important;}
+.choose_editor a.edit-link {width: 100%;margin: 0;}
+}
+
+
+/* 
+a button.upsell-downsell-yes-button {
+    display: block;
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 5px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+
+a button.upsell-downsell-no-button {
+    display: block;
+    padding: 10px 15px;
+    background: #bebebe;
+    color: #100000;
+    cursor: pointer;
+    margin: 5px 5px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+ */
+ 

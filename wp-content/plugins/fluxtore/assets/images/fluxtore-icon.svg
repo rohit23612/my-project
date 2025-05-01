@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 73" width="73" height="73">
+	<title>fluxtore-icon-svg</title>
+	<defs>
+		<image  width="73" height="73" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABJCAMAAABGrfvuAAAAAXNSR0IB2cksfwAAAOFQTFRFAAAAnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnnKKnPqkG6wAAAEt0Uk5TABRMcZO3zd7v/0k3gMnIfzVPm+ZORNMsuxGR+49s7ehgDJmYMN3cJeHg6Scg5RjWoBzz8rBQ2tlAkAVI0BD+/XjD2PgyKKNc7LjLqAfnHQAAAjFJREFUeJyt2GdDwjAQBuBTGZ4DB6LiKm7BhYoDRRFw//8fZAOIaXO55lLeT5I0j2kIaRMAJhOTU5lsLj+N0/lcNjM1w13LZHZuHuMpLCxKmaXlosEMUlxeETilVQszyGrJ0VlbZx2V9TUHp7yxmQghbm4lQts7Do5KUGGd3T1HR2WfgQ4OBRDikRU6PhFBiFUbVBNCIXVKQWe2ucjlnIAu8h4Q4qEBlS+9oHDCx6W6J4RYj0IVbwixokNX16M/5dKNLjVQ+yCmGv9tb8OPKSSt7V20VCzd611KJY06VYiVyqXCAHowfN9ONanChMSlpip8jC8BPlKgCp/onoqgQaMmUZg4LkbU7bUoXyy1AJ5fxiK1AWaIYr958EqWyil6ifOR6tCh/4FY6kCXlsRUFwKLJJmWKgH0yHK51LOUi6GwCd0n+Zj36HHyGPOA/u48pC49n1B+ex3rY1zaqX3yd+cj0WvBsEooldvWKgn1Qq6ZIylmcfOyRa3jGhRpyU5xtY5bBsqQ+F9Lv4pfDdykWr+KvD2h1H8Gw9sYpGFdgakzberi4btK9P0p2tK0uS4B3JPVaLSyfXG5kUR3yj3wn0YqSHv3BbhJAV3rUKo9AkQztn0LAH9EYI+xlwKQ7YH/kjchgHMPqEhB8G559DE5IaEw1XFB0a1Qci7tEMCHANrjIIBP13OVL95R2XI669lIhsJ8J0JZJ0eFn/A/zo4Kc04ncvpZMNf3+Tk58xftPDPhyl9oOZoTWP9/OQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="logoMark" href="#img1" x="0" y="0"/>
+</svg>
